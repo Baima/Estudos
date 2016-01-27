@@ -17,10 +17,6 @@ public class Questão3
        
         
         
-        /*if (primeiroS <=0)
-        {
-            primeiroS = 0;
-        }  */
         ContaBancária abrir = new ContaBancária();
        
         
