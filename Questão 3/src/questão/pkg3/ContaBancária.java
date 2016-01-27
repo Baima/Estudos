@@ -21,4 +21,8 @@ public class ContaBancária
    return this.saldo;
    
     }
+    
+   public float getSaldo() {
+       return saldo;
+   } 
 }
