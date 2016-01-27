@@ -16,7 +16,6 @@ public class Questão3
         float primeiroS = scan.nextInt();
         
         
-        ContaBancária abrir = new ContaBancária();
         ContaBancária conta = new ContaBancária();
         conta.AbreConta(primeiroS);
         System.out.println("Seu saldo é de:" +  conta.getSaldo());
