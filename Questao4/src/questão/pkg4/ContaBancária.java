@@ -14,7 +14,7 @@ public class ContaBancária
     }
     
     public String mostraDados()
-    {       String msgERRO;
+    {       String mensagem = "saldo: " + saldo;
             if (saldo < 0);
            msgERRO = ("Erro: Saldo negativo encontrado. Pague o aluguel!");
            return msgERRO;
