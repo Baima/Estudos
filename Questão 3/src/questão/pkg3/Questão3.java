@@ -17,9 +17,9 @@ public class Questão3
         
         
         ContaBancária abrir = new ContaBancária();
-       
-        
-        System.out.println("Seu saldo é de:" +  abrir.AbreConta(primeiroS));
+        ContaBancária conta = new ContaBancária();
+        conta.AbreConta(primeiroS);
+        System.out.println("Seu saldo é de:" +  conta.getSaldo());
     }
     
 }
