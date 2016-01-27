@@ -5,7 +5,11 @@ package controlelampada;
 public class Lampada 
 {
     private String status;
-              
+    public Lampada ()
+    {
+        status = "A lâmpada se encontra desligada";
+    }
+    
     public void EstaLigada()
     {
         status = "A lâmpada se encontra ligada";
