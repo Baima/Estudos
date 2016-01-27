@@ -14,7 +14,6 @@ public class Questão3
         System.out.println("digite seu saldo inicial");
         Scanner scan = new Scanner (System.in);
         float primeiroS = scan.nextInt();
-       
         
         
         ContaBancária abrir = new ContaBancária();
