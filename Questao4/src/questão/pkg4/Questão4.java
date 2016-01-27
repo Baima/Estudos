@@ -18,11 +18,9 @@ public class Questão4
         float primeiroS = scan.nextInt();
        
      
-        ContaBancária abrir = new ContaBancária();
-        ContaBancária msg = new ContaBancária();
-        
-        System.out.println(msg.mostraDados(primeiroS));
-        System.out.println("Seu saldo é de:" +  abrir.AbreConta(primeiroS));
+        ContaBancária conta = new ContaBancária();
+        conta.AbreConta(primeiroS);
+        System.out.println(conta.mostraDados());
     }
     
 }
