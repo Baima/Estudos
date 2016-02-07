@@ -14,17 +14,11 @@ public class Questão3
         System.out.println("digite seu saldo inicial");
         Scanner scan = new Scanner (System.in);
         float primeiroS = scan.nextInt();
-       
         
         
-        /*if (primeiroS <=0)
-        {
-            primeiroS = 0;
-        }  */
-        ContaBancária abrir = new ContaBancária();
-       
-        
-        System.out.println("Seu saldo é de:" +  abrir.AbreConta(primeiroS));
+        ContaBancária conta = new ContaBancária();
+        conta.AbreConta(primeiroS);
+        System.out.println("Seu saldo é de:" +  conta.getSaldo());
     }
     
 }

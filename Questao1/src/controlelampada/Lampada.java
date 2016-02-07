@@ -5,8 +5,7 @@ package controlelampada;
 public class Lampada 
 {
     private String status;
-    private int luminosidade;
-              
+          
     public void Ligar()
     {
         status = "Ligada";

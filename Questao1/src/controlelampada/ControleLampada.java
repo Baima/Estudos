@@ -11,20 +11,20 @@ public class ControleLampada {
         System.out.println ("Digite o estado da lâmpada [1] Ligada [2] Desligada [3] Meia luz");
         
         int lampada = scan.nextInt();
-                Lampada lamp = new Lampada();
+        Lampada lamp = new Lampada();
         
         if (lampada == 1)
         { 
             lamp.Ligar();
         }
         else if (lampada == 2)
-        {
-            lamp.Desligar();
-        }
-        else if (lampada == 3)
-        {
-            lamp.MeiaLuz();
-        }
+            {
+                lamp.Desligar();
+            }
+            else if (lampada == 3)
+                {
+                    lamp.MeiaLuz();
+                }
     }
     
 }
